@@ -10,71 +10,88 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/mainpage.css">
     <style>
-        body {
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        .navbar {
-            background-color: #007bff;
-        }
-        .navbar-brand, .nav-link {
-            color: #fff !important;
-        }
-        .navbar-brand {
-            font-size: 1.5rem;
-        }
-        .btn {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-        }
-        .btn:hover {
-            background-color: #0056b3;
-        }
-        .section {
-            padding: 60px 0;
-        }
-        .section-title {
-            font-size: 2.5rem;
-            margin-bottom: 30px;
-        }
-        .card {
-            background: #fff;
-            border: none;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        .card-body {
-            padding: 20px;
-        }
-        .card-title {
-            font-size: 1.5rem;
-            margin-bottom: 15px;
-        }
-        .card-text {
-            font-size: 1rem;
-        }
-        .social-links a {
-            color: #007bff;
-            margin: 0 10px;
-        }
-        .social-links a:hover {
-            color: #0056b3;
-        }
-        .portfolio-item img {
-            max-width: 100%;
-            border-radius: 5px;
-        }
-        .portfolio-item {
-            margin-bottom: 30px;
-        }
-        .img-fluid {
-            max-width: 32%;
-            height: 101%;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
+        
+            /* Background image styling for the whole page */
+            body {
+                background-image: url('./image/fullbck.jpg'); 
+                background-size: cover; 
+                background-position: center; 
+                background-repeat: no-repeat; 
+                background-attachment: fixed; 
+                margin: 0;
+                padding: 0;
+                color: #333; 
+            }
+            
+            .container {
+                background-color: rgba(255, 255, 255, 0.9); 
+                padding: 20px; 
+                border-radius: 10px; 
+            }
+
+
+            .navbar {
+                background-color: #007bff;
+            }
+            .navbar-brand, .nav-link {
+                color: #fff !important;
+            }
+            .navbar-brand {
+                font-size: 1.5rem;
+            }
+            .btn {
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+            }
+            .btn:hover {
+                background-color: #0056b3;
+            }
+            .section {
+                padding: 20px 0;
+                margin: auto;
+            }
+            .section-title {
+                font-size: 2.5rem;
+                margin-bottom: 30px;
+            }
+            .card {
+                background: #fff;
+                border: none;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            }
+            .card-body {
+                padding: 20px;
+            }
+            .card-title {
+                font-size: 1.5rem;
+                margin-bottom: 15px;
+            }
+            .card-text {
+                font-size: 1rem;
+            }
+            .social-links a {
+                color: #007bff;
+                margin: 0 10px;
+            }
+            .social-links a:hover {
+                color: #0056b3;
+            }
+            .portfolio-item img {
+                max-width: 100%;
+                border-radius: 5px;
+            }
+            .portfolio-item {
+                margin-bottom: 30px;
+            }
+            .img-fluid {
+                max-width: 32%;
+                height: 101%;
+            }
+            a {
+                color: #007bff;
+                text-decoration: none;
+            }
        
 
          
@@ -100,35 +117,44 @@
         </div>
     </nav>
 
-    <!-- Header -->
-    <header class="text-center section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h1>Hi ! I'm Madhav Kumar</h1>
-                    <p class="lead">B.Tech(CSE) With AIML Stream</p>
-                    <p class="lead">Andriod Development</p>
-                    <p class="lead">Kalasalingam Academy of Research and Education</p>
-                    
-                    <a href="mailto:madhavkumar03032003@gmail.com" class="btn btn-primary">Contact Me</a>
-                </div>
-                <div class="col-lg-6">
-                    <img src= "./image/profilePhoto.jpg"class="img-fluid" alt="Profile Image">
-                </div>
+ <!-- Header -->
+<header id="header" class="text-center section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1>Hi ! I'm Madhav Kumar</h1>
+                <p class="lead">B.Tech(CSE) With AIML Stream</p>
+                <p class="lead">Andriod Development</p>
+                <p class="lead">Kalasalingam Academy of Research and Education</p>
+                <a href="mailto:madhavkumar03032003@gmail.com" class="btn btn-primary">Contact Me</a>
+            </div>
+            <div class="col-lg-6">
+                <img id="profileImage" src="./image/profilePhoto.jpg" class="img-fluid" alt="Profile Image">
             </div>
         </div>
-    </header>
+    </div>
+</header>
+
 
     <!-- About Section -->
     <section id="about" class="text-center section">
         <div class="container">
             <h2 class="section-title">About Me</h2>
-            <p class="lead">I am a highly motivated and talented individual with a strong background in B.Tech Computer Science and Engineering. With a strong interest in Artificial Intelligence and Machine Learning, I am eager to apply my skills in innovative and challenging projects.</p>
+            <p class="lead">I am a highly motivated and talented individual with a strong background in B.Tech Computer Science and Engineering. With a strong interest in Artificial Intelligence, Machine Learning, Android Development using Kotlin, and Flutter (Dart), I am eager to apply my skills in innovative and challenging projects.</p>
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/madhav-kumar-90baa2238/" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/2003MADHAV" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.facebook.com/madhavkumar3320/" target="_blank"><i class="fab fa-facebook"></i></a>
                 <a href="https://x.com/MadhavKumar5863" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.codechef.com/users/madhav81" target="_blank">
+                    <img src="image/codechef_icon.png" alt="CodeChef" style="width: 24px; height: 24px;">
+                </a>
+                <a href="https://leetcode.com/u/2003madhav/" target="_blank">
+                    <img src="image/leetcode_icon.png" alt="LeetCode" style="width: 24px; height: 24px;">
+                </a>
+                
+                
+                
             </div>
         </div>
     </section>
@@ -179,6 +205,8 @@
                             <p class="card-text">Traveling Application</p>
                             <p class="card-text">Music Application</p>
                             <p class="card-text">Persinal portfolio</p>
+                            <p class="card-text">Real Time obkect detection</p>
+                            <p class="card-text">Haealth Care </p>
                         </div>
                     </div>
                 </div>
@@ -206,7 +234,20 @@
             </div>
         </div>
     </section>
-
+  <!-- Currently Working Project Section -->
+<section id="current-project" class="text-center section">
+    <div class="container">
+        <h2 class="section-title">Currently Working Project</h2>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">EaseRent: Integrated Admin Web Portal and Mobile Solutions for Rental Property Management</h5>
+                <p class="card-text">
+                    EaseRent is a unified platform for rental property management, integrating web and mobile solutions. With a user-friendly design, it supports renters, owners, and agents, offering 360° views, virtual tours, and location-based listings. The scalable system manages growth, providing efficient tools for property management and a robust admin panel for users, properties, and settings. Prioritizing security and compliance, EaseRent also supports multiple languages, including RTL, to serve a diverse audience.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
     <!-- Skills Section -->
     <section id="skills" class="text-center section">
         <div class="container">
@@ -214,8 +255,9 @@
             <div class="row">
                 <div class="col-md-6">
                     <h4>Hard Skills</h4>
-                    <p>C,Python, Java,Kotlin, SQL, Matlab </p>
+                    <p>C,Python, Java,Kotlin, SQL, Matlab ,HTML, css,Dart</p>
                     <p>Andriod Development With Kotlin and Java</p>
+                    <p>Flutter With Dart</p>
                 </div>
                 <div class="col-md-6">
                     <h4>Soft Skills</h4>
@@ -249,7 +291,7 @@
     
 
 <!-- Contact and Social Links Section -->
-<section id="contact" class="text-center section"> <
+<section id="contact" class="text-center section"> 
     <div class="container">
         <h2 class="section-title">Get In Touch</h2>
         <p class="lead">Feel free to reach out if you have any questions or opportunities for collaboration.</p>
@@ -289,10 +331,11 @@
     </div>
 </section>
 
-    <!-- Footer -->
-    <footer class="text-center py-4">
-        <p>&copy; 2024 Madhav Kumar. All rights reserved.</p>
-    </footer>
+  <!-- Footer -->
+<footer class="text-center py-4">
+    <p>&copy; 2024 Madhav Kumar. All rights reserved.</p>
+</footer>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>

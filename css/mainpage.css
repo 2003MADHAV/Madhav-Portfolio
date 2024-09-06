@@ -9,6 +9,7 @@ body {
     color: white;
     background-color: #111111;
     
+    
 }
 
 #navigation {
@@ -156,7 +157,7 @@ button:hover {
 }
 
 .contact-info a {
-    color: #F05423;
+    color: #2369F0;
     text-decoration: none;
 }
 
@@ -183,5 +184,22 @@ button:hover {
 .social-link:hover {
     color: #ffffff;
     background-color: #F05423;
+}
+footer {
+    background-color: #333; /* Dark background color for contrast */
+    color: #73df1a; /* White text color for readability */
+    padding: 20px 0; /* Adjust padding as needed */
+}
+
+footer p {
+
+    margin: -9px;
+     font-size: 16px;
+}
+/* Ensure the profile image fits well */
+#profileImage {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
 }
 

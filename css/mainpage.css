@@ -203,3 +203,32 @@ footer p {
     border-radius: 50%;
 }
 
+/* Style buttons */
+.btn {
+    background-color: DodgerBlue; /* Button background color */
+    border: none;
+    color: white; /* Button text color */
+    padding: 12px 30px; /* Button padding */
+    font-size: 20px; /* Font size for button text */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: inline-flex; /* Flexbox for icon alignment */
+    align-items: center; /* Center the icon vertically */
+    gap: 10px; /* Space between icon and text */
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue; /* Darker blue on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  /* Icon size */
+  .btn i {
+    font-size: 24px; /* Adjust icon size */
+  }
+  
